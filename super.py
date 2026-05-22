@@ -2,7 +2,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-from PIL import Image
+from PIL import Image, ImageChops
 from io import BytesIO
 from dataclasses import dataclass, asdict
 from typing import List
@@ -107,11 +107,60 @@ def getLogo(brand_url):
 
     return logoUrl
 
-def downloadLogo(logoUrl, brand):
+# def downloadLogo(logoUrl, brand):
+#
+#     imgData = requests.get(logoUrl).content
+#     with open(f"flyers/logo/{brand}.jpg", "wb") as handler:
+#         handler.write(imgData)
 
-    imgData = requests.get(logoUrl).content
-    with open(f"flyers/logo/{brand}.jpg", "wb") as handler:
-        handler.write(imgData)
+def trim_whitespace(img, threshold=10):
+
+    # White background
+    bg = Image.new("RGBA", img.size, (255, 255, 255, 255))
+
+    # Difference
+    diff = ImageChops.difference(img, bg)
+
+    # Convert to mask
+    diff = diff.convert("L").point(
+        lambda x: 255 if x > threshold else 0
+    )
+
+    box = diff.getbbox()
+
+    return img.crop(box) if box else img
+
+def resize_logo_from_url(
+    url: str,
+    brand: str,
+    size=(300, 300),
+):
+
+    response = requests.get(url, timeout=20)
+    response.raise_for_status()
+
+    img = Image.open(BytesIO(response.content)).convert("RGBA")
+
+    img = trim_whitespace(img)
+
+    # Resize while keeping aspect ratio
+    img.thumbnail(size, Image.LANCZOS)
+
+    # Create white background for JPG
+    background = Image.new("RGB", size, (255, 255, 255))
+
+    # Center logo
+    x = (size[0] - img.width) // 2
+    y = (size[1] - img.height) // 2
+
+    background.paste(img.convert("RGB"), (x, y))
+
+    background.save(
+        f"flyers/logo/{brand}.jpg",
+        format="JPEG",
+        quality=90,
+        optimize=True
+    )
 
 def getBrochureImages(brochure_url):
 
@@ -185,7 +234,8 @@ def main():
 
         logoUrl = getLogo(brand_url)
 
-        downloadLogo(logoUrl, logoName)
+
+        resize_logo_from_url( url=logoUrl, brand=logoName, size=(90, 90))
 
         if brochures:
             print(f" Found {len(brochures)} brochures")
