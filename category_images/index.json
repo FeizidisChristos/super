@@ -4,127 +4,127 @@
         {
             "name": "Αλλαντικά",
             "name_english": "Cold Cuts",
-            "image": "allantika.png"
+            "image": "cold_cuts.png"
         },
         {
             "name": "Αναψυκτικά, Νερά & Χυμοί",
             "name_english": "Soft Drinks, Water & Juices",
-            "image": "anapsyktika-nera.jpeg"
+            "image": "soft_drinks.jpeg"
         },
         {
             "name": "Απορρυπαντικά & Είδη Καθαρισμού",
             "name_english": "Detergents & Cleaning Supplies",
-            "image": "aporypantika.jpg"
+            "image": "cleaning_supplies.jpg"
         },
         {
             "name": "Αυγά, Βούτυρο, Νωπές Ζύμες & Ζωμοί",
             "name_english": "Eggs, Butter, Doughs & Broths",
-            "image": "ayga-voutyro.jpg"
+            "image": "eggs_butter.jpg"
         },
         {
             "name": "Βρεφικές & Παιδικές τροφές",
             "name_english": "Baby & Kids Food",
-            "image": "vrefikes-kremes.jpg"
+            "image": "kids_food.jpg"
         },
         {
             "name": "Γάλατα, Ροφήματα & Χυμοί ψυγείου",
             "name_english": "Dairy Drinks & Chilled Juices",
-            "image": "galata-rofhmata.jpg"
+            "image": "dairy_drinks.jpg"
         },
         {
             "name": "Γιαούρτια, Κρέμες γάλακτος & Επιδόρπια ψυγείου",
             "name_english": "Yogurts, Creams & Desserts",
-            "image": "giaourtia-kremes.jpg"
+            "image": "yogurts_creams.jpg"
         },
         {
             "name": "Είδη Αρτοζαχαροπλαστείου",
             "name_english": "Bakery & Pastry Items",
-            "image": "artos.jpg"
+            "image": "bakery.jpg"
         },
         {
             "name": "Είδη μιας χρήσης & Είδη Πάρτι",
             "name_english": "Disposable & Party Supplies",
-            "image": "eidh-party.jpeg"
+            "image": "party_supplies.jpeg"
         },
         {
             "name": "Είδη Οικιακής χρήσης",
             "name_english": "Household Items",
-            "image": "eidh-oikiakhsxrhshs.png"
+            "image": "household_items.png"
         },
         {
             "name": "Είδη πρωινού & Ροφήματα",
             "name_english": "Breakfast & Beverages",
-            "image": "eidh-prwinou.jpg"
+            "image": "breakfast.jpg"
         },
         {
             "name": "Έτοιμα Γεύματα",
             "name_english": "Ready Meals",
-            "image": "etoima-geumata.jpg"
+            "image": "ready_meals.jpg"
         },
         {
             "name": "Κάβα",
             "name_english": "Wine & Spirits",
-            "image": "kava.jpeg"
+            "image": "wine_spirits.jpeg"
         },
         {
             "name": "Καλλυντικά & Είδη Προσωπικής υγιεινής",
             "name_english": "Cosmetics & Personal Care",
-            "image": "kallyntika.jpg"
+            "image": "cosmetics.jpg"
         },
         {
             "name": "Κατεψυγμένα",
             "name_english": "Frozen Foods",
-            "image": "katepsygmena.jpg"
+            "image": "frozen_foods.jpg"
         },
         {
             "name": "Μπισκότα, Σοκολάτες & Ζαχαρώδη",
             "name_english": "Biscuits, Chocolates & Sweets",
-            "image": "mpiskota-sokolates.jpg"
+            "image": "biscuits_chocolates.jpg"
         },
         {
             "name": "Ξηροί Καρποί & Σνακ",
             "name_english": "Nuts & Snacks",
-            "image": "kshroi karpoi-snack.jpg"
+            "image": "nuts_snacks.jpg"
         },
         {
             "name": "Ορεκτικά & Delicatessen",
             "name_english": "Appetizers & Delicatessen",
-            "image": "orektika-delicatessen.jpg"
+            "image": "appetizers_delicatessen.jpg"
         },
         {
             "name": "Τροφές & Είδη για Κατοικίδια",
             "name_english": "Pet Food & Supplies",
-            "image": "katoikidia.png"
+            "image": "pet_food.png"
         },
         {
             "name": "Τρόφιμα Παντοπωλείου",
             "name_english": "Grocery Food",
-            "image": "trofhma-pantopwleiou.jpg"
+            "image": "grocery_food.jpg"
         },
         {
             "name": "Τυροκομικά & Φυτικά Αναπληρώματα",
             "name_english": "Cheese & Plant-Based Alternatives",
-            "image": "tyrokomika.jpg"
+            "image": "milk_products.jpg"
         },
         {
             "name": "Φρέσκα Φρούτα & Λαχανικά",
             "name_english": "Fresh Fruits & Vegetables",
-            "image": "frouta-laxanika.jpg"
+            "image": "fresh_fruits.jpg"
         },
         {
             "name": "Φρέσκο Κρέας",
             "name_english": "Fresh Meat",
-            "image": "fresco-kreas.jpg"
+            "image": "fresh_meat.jpg"
         },
         {
             "name": "Φρέσκο Ψάρι & Θαλασσινά",
             "name_english": "Fresh Fish & Seafood",
-            "image": "fresko-psari.jpg"
+            "image": "fresh_fish.jpg"
         },
         {
             "name": "Χαρτικά, Πάνες & Σερβιέτες",
             "name_english": "Paper Goods, Diapers & Sanitary Pads",
-            "image": "xartika-panes.jpg"
+            "image": "paper_goods.jpg"
         }
     ]
 }
