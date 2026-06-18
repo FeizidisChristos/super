@@ -1,0 +1,131 @@
+{
+    "base_url": "https://oniagoapp.github.io/super/category_images/",
+    "categories": [
+        {
+            "name": "Αλλαντικά",
+            "name_english": "Cold Cuts",
+            "image": "allantika.png"
+        },
+        {
+            "name": "Αναψυκτικά, Νερά & Χυμοί",
+            "name_english": "Soft Drinks, Water & Juices",
+            "image": "anapsyktika-nera.jpeg"
+        },
+        {
+            "name": "Απορρυπαντικά & Είδη Καθαρισμού",
+            "name_english": "Detergents & Cleaning Supplies",
+            "image": "aporypantika.jpg"
+        },
+        {
+            "name": "Αυγά, Βούτυρο, Νωπές Ζύμες & Ζωμοί",
+            "name_english": "Eggs, Butter, Doughs & Broths",
+            "image": "ayga-voutyro.jpg"
+        },
+        {
+            "name": "Βρεφικές & Παιδικές τροφές",
+            "name_english": "Baby & Kids Food",
+            "image": "vrefikes-kremes.jpg"
+        },
+        {
+            "name": "Γάλατα, Ροφήματα & Χυμοί ψυγείου",
+            "name_english": "Dairy Drinks & Chilled Juices",
+            "image": "galata-rofhmata.jpg"
+        },
+        {
+            "name": "Γιαούρτια, Κρέμες γάλακτος & Επιδόρπια ψυγείου",
+            "name_english": "Yogurts, Creams & Desserts",
+            "image": "giaourtia-kremes.jpg"
+        },
+        {
+            "name": "Είδη Αρτοζαχαροπλαστείου",
+            "name_english": "Bakery & Pastry Items",
+            "image": "artos.jpg"
+        },
+        {
+            "name": "Είδη μιας χρήσης & Είδη Πάρτι",
+            "name_english": "Disposable & Party Supplies",
+            "image": "eidh-party.jpeg"
+        },
+        {
+            "name": "Είδη Οικιακής χρήσης",
+            "name_english": "Household Items",
+            "image": "eidh-oikiakhsxrhshs.png"
+        },
+        {
+            "name": "Είδη πρωινού & Ροφήματα",
+            "name_english": "Breakfast & Beverages",
+            "image": "eidh-prwinou.jpg"
+        },
+        {
+            "name": "Έτοιμα Γεύματα",
+            "name_english": "Ready Meals",
+            "image": "etoima-geumata.jpg"
+        },
+        {
+            "name": "Κάβα",
+            "name_english": "Wine & Spirits",
+            "image": "kava.jpeg"
+        },
+        {
+            "name": "Καλλυντικά & Είδη Προσωπικής υγιεινής",
+            "name_english": "Cosmetics & Personal Care",
+            "image": "kallyntika.jpg"
+        },
+        {
+            "name": "Κατεψυγμένα",
+            "name_english": "Frozen Foods",
+            "image": "katepsygmena.jpg"
+        },
+        {
+            "name": "Μπισκότα, Σοκολάτες & Ζαχαρώδη",
+            "name_english": "Biscuits, Chocolates & Sweets",
+            "image": "mpiskota-sokolates.jpg"
+        },
+        {
+            "name": "Ξηροί Καρποί & Σνακ",
+            "name_english": "Nuts & Snacks",
+            "image": "kshroi karpoi-snack.jpg"
+        },
+        {
+            "name": "Ορεκτικά & Delicatessen",
+            "name_english": "Appetizers & Delicatessen",
+            "image": "orektika-delicatessen.jpg"
+        },
+        {
+            "name": "Τροφές & Είδη για Κατοικίδια",
+            "name_english": "Pet Food & Supplies",
+            "image": "katoikidia.png"
+        },
+        {
+            "name": "Τρόφιμα Παντοπωλείου",
+            "name_english": "Grocery Food",
+            "image": "trofhma-pantopwleiou.jpg"
+        },
+        {
+            "name": "Τυροκομικά & Φυτικά Αναπληρώματα",
+            "name_english": "Cheese & Plant-Based Alternatives",
+            "image": "tyrokomika.jpg"
+        },
+        {
+            "name": "Φρέσκα Φρούτα & Λαχανικά",
+            "name_english": "Fresh Fruits & Vegetables",
+            "image": "frouta-laxanika.jpg"
+        },
+        {
+            "name": "Φρέσκο Κρέας",
+            "name_english": "Fresh Meat",
+            "image": "fresco-kreas.jpg"
+        },
+        {
+            "name": "Φρέσκο Ψάρι & Θαλασσινά",
+            "name_english": "Fresh Fish & Seafood",
+            "image": "fresko-psari.jpg"
+        },
+        {
+            "name": "Χαρτικά, Πάνες & Σερβιέτες",
+            "name_english": "Paper Goods, Diapers & Sanitary Pads",
+            "image": "xartika-panes.jpg"
+        }
+    ]
+}
+
