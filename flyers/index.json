@@ -4,7 +4,7 @@
         {
             "name": "Bazaar",
             "logo": "logo/bazaar.jpg",
-            "catalog": null
+            "catalog": "bazaar.pdf"
         },
         {
             "name": "Discount Markt",
